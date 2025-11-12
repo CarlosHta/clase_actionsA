@@ -1,6 +1,6 @@
 name: EnviarSaludo
 on:
-  worflow_dispatch
+  worflow_dispatch:
 jobs:
   saludo:
     runs-on: ubuntu-latest
