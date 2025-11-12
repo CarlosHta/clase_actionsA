@@ -1,1 +1,9 @@
 name: EnviarSaludo
+on:
+  worflow_dispatch
+jobs:
+  saludo:
+    runs-on: ubuntu-latest
+    steps:
+      -name: Mostrar saludo
+       run: echo "hola mundo"
